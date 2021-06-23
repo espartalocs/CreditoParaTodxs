@@ -21,6 +21,7 @@ Para rodar o sistema:
 
 Para rodar o sistema é nescessário abrir a página index.html no navegador padrão
 será apresentado uma tela de cadastro de conta aonde é nescessario criar um conta,
+a senha deve ter no mínimo 4 caracteres para ser aceita.
 após a conta criada o cliente será levado para uma tela aonde será apresentada 3 opções de empréstimo
 cada uma com um valor e taxa de juros diferende uma da outra.
 Após clicar em detalhes da oferta o cliente é levado para um tela aonde é apresentado de forma detalhada 
