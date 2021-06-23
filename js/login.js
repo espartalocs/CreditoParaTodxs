@@ -7,6 +7,8 @@ let Bvalidator = {
 
       let inputs = form.querySelectorAll('input');
 
+      Bvalidator.clearErrors(); // limpa o campo de erros 
+
       for(let i=0; i<inputs.length; i++) {
         let input = inputs[i];
 
@@ -57,9 +59,18 @@ let Bvalidator = {
       errorElement.innerHTML = error; 
 
       input.parentElement.insertBefore(errorElement, input.ElementSibling);
+    },
+    clearErrors:()=>{
+      let errorElements = document.querySelectorAll('.error');
+      
+      for(let i=0; i<errorElements.length; i++) {
+        errorElements[i].remove();
+      }
+  
+
     }
 
-}
+};
 
 let form = document.querySelector('.Validator');
 
