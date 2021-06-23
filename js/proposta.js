@@ -1,4 +1,4 @@
-const c = (el)=>document.querySelector(el);
+/*const c = (el)=>document.querySelector(el);
 const cs= (el)=>document.querySelectorAll(el);
 
 emprestimoJSON.map((item)=>{
@@ -6,11 +6,16 @@ emprestimoJSON.map((item)=>{
 
      emprestimoItem.querySelector('.empretimo-item--name').innerHTML = item.emprestimo;
      emprestimoItem.querySelector('.empretimo-item--juros').innerHTML = item.taxa;
-    emprestimoItem.querySelector('a').addEventListner('click', (e)=>{
+    emprestimoItem.querySelector('button').addEventListner('click', (e)=>{
         e.preventDefault();
+
+        c('.emprestimodetail').style.display = 'flex';
 
     });
 
 
-});
-
+}); */
+ 
+function clicou() {
+    alert("você clicou");
+}
