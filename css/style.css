@@ -108,16 +108,3 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
-button {
-    background-color: #E60084;
-    color: #FFF;
-    border: none;
-    border-radius: 50x;
-    height: 20px;
-    cursor: pointer;
-}
-
-main.cards section.card {
-    height: 64px;
-    width: 64px;
-} 
