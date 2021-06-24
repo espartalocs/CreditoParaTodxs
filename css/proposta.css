@@ -30,6 +30,7 @@ div.card{
     border-radius: 16px;
     background-color: white;
     font-size: 20px;
+    border-left: 5px solid #E63888;
 
 }
 
@@ -61,4 +62,19 @@ a {
     border: 1px solid transparent;
     border-radius: 4px;
     display: inline-block;
+}
+
+@media screen and (max-width: 841px) {
+    div.card{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    
+    }
+
+@media screen and (min-width: 842px) {
+    div.card{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
 }
